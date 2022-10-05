@@ -20,7 +20,7 @@ class CardPage extends StatelessWidget {
           child: Card(
             child: Column(
               children: [
-                Image.asset('assets/images/image_01.jpg'),
+                Image.asset('assets/images/image_01.jpg',fit: BoxFit.cover,width: double.infinity,height: 250,),
                 Text(
                   'Italia',
                   style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24),
@@ -43,7 +43,7 @@ class CardPage extends StatelessWidget {
           child: Card(
             child: Column(
               children: [
-                Image.asset('assets/images/image_02.jpg'),
+                Image.asset('assets/images/image_02.jpg',fit: BoxFit.cover,width: double.infinity,height: 250,),
                 Text(
                   'Poland',
                   style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24),
@@ -66,7 +66,7 @@ class CardPage extends StatelessWidget {
           child: Card(
             child: Column(
               children: [
-                Image.asset('assets/images/image_03.jpg'),
+                Image.asset('assets/images/image_03.jpg',fit: BoxFit.cover,width: double.infinity,height: 250,),
                 Text(
                   'Portugal',
                   style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24),
@@ -89,7 +89,7 @@ class CardPage extends StatelessWidget {
           child: Card(
             child: Column(
               children: [
-                Image.asset('assets/images/image_04.jpg'),
+                Image.asset('assets/images/image_04.jpg',fit: BoxFit.cover,width: double.infinity,height: 250,),
                 Text(
                   'Norway',
                   style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24),
@@ -112,7 +112,7 @@ class CardPage extends StatelessWidget {
           child: Card(
             child: Column(
               children: [
-                Image.asset('assets/images/image_05.jpg'),
+                Image.asset('assets/images/image_05.jpg',fit: BoxFit.cover,width: double.infinity,height: 250,),
                 Text(
                   'Brasilia',
                   style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24),
@@ -135,7 +135,7 @@ class CardPage extends StatelessWidget {
           child: Card(
             child: Column(
               children: [
-                Image.asset('assets/images/image_06.jpg'),
+                Image.asset('assets/images/image_06.jpg',fit: BoxFit.cover,width: double.infinity,height: 250,),
                 Text(
                   'Hungary',
                   style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24),

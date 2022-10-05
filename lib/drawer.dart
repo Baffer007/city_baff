@@ -1,3 +1,4 @@
+import 'package:city_baff/about_page.dart';
 import 'package:city_baff/details_page.dart';
 import 'package:flutter/material.dart';
 
@@ -12,6 +13,7 @@ class _DrawerPageState extends State<DrawerPage> {
   @override
   Widget build(BuildContext context) {
     return Drawer(
+
 
       child: ListView(
         children: [
@@ -109,6 +111,21 @@ class _DrawerPageState extends State<DrawerPage> {
               child: Text('Hungary'),
             ),
           ),
+          ListTile(
+            leading: Icon(Icons.info_outline),
+            title: InkWell(
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => AboutPage(),
+                  ),
+                );
+              },
+              child: Text('About'),
+            ),
+          ),
+
         ],
       ),
     );
